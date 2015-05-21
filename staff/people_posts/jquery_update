@@ -1,0 +1,12 @@
+echo "<td colspan='3'>
+		<table class='table table-boardered'>
+		<tr>
+		<td>Post:</td>
+		<td><textarea class='form-controll' name='post' id='postid'></textarea></td>
+		</tr>
+		<tr>
+		<td style='text-align:center;' colspan='2'><button class=\"btn btn-success btn-sm\" onclick=\"update_post($post_id)\">Update</button>
+		<button class=\"btn btn-danger btn-sm\" onclick=\"cancel_post($post_id)\">Cancel</button></td>
+		</tr>
+    	</table>
+    	</td>"; 

@@ -1,0 +1,496 @@
+/* CSS Document */
+body {
+	margin:0 0 0 0;
+	background : url('../images/bg1.gif') #fff repeat-x;
+	color : #0e1272;
+	text-align : center;
+	font-family : 'verdana' , arial, tahoma, sans-serif;
+	font-size : 12px;
+}
+
+h1 
+{
+color:#217ba5; 
+text-transform:capitalize;
+font-size:20pt; 
+font-family: verdana, arial, 'sans serif';
+}
+
+h2 
+{
+color:#3399CC; 
+font-size:14pt; 
+font-family: verdana, arial, 'sans serif';
+}
+
+h3 
+{
+color:#006699; 
+font-size:13px; 
+font-weight: bold; 
+font-family: verdana, arial, 'sans serif';
+}
+
+hr {color:navy}
+
+a{
+font-size:12px;
+text-decoration:none;
+vertical-align:middle;
+}
+
+.search_txt
+{
+color:#000; 
+font-size:16px; 
+font-weight: bold; 
+font-family: verdana, arial, 'sans serif';
+}
+
+.mainTable
+{
+	padding:0;
+	width:995px;
+}
+
+.mainTable a
+{
+	vertical-align:top;
+	margin-right:25px;
+	color:#003300;
+	font-size:12px;
+	text-align:right;	
+	text-decoration:none;
+}
+
+.mainTable a:hover
+{
+	color:#999;
+}
+
+.toplink
+{
+	height:15px;
+}
+
+.ban_tab
+{
+	width:100%;
+	height:75px;
+}
+
+.ban_tab #bannertxt
+{
+	padding-left:50px;
+	padding-top:25px;
+}
+
+.menu_tab
+{
+	width:100%;
+	height:40px;
+	clear:both;
+}
+
+
+/******************************************/
+
+/* CSS Document */
+
+.horizontalcssmenu
+{
+width:100%;
+float:none;
+display:inline-table; 
+}
+
+
+.horizontalcssmenu ul{
+width:100%;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.horizontalcssmenu ul li{
+position: relative;
+display: inline-block;
+}
+
+/*Top level menu link items style*/
+
+.horizontalcssmenu ul li a{
+
+width: 120px;
+margin-top:1px;
+padding: 7px 0px;
+font-size:12px;
+font-family : 'verdana' , arial, tahoma, sans-serif;
+font-weight:bold;
+color : #fff;
+text-align:center;
+text-decoration: none;
+display: block;
+}
+
+.horizontalcssmenu ul li a:hover{
+/*background: url(menubgover.gif) center center repeat-x;*/
+color:#104e6c;
+background-color: #48bdf5;
+}
+	
+* html p#iepara{ /*For a paragraph (if any) that immediately follows menu, add 1em top spacing between the two in IE*/
+padding-top: 1em;
+}
+	
+/* Holly Hack for IE \*/
+* html .horizontalcssmenu ul li { float: left; height: 1%; }
+* html .horizontalcssmenu ul li a { height: 1%; }
+/* End */
+
+
+/**********************************************************/
+
+
+.search
+{	
+	width:25%;
+	height:75px;
+	vertical-align:top;
+}
+
+
+/*****************************************/
+
+.login_tab
+{	
+	margin-top:150px;
+	width:300px;
+	border: 1px solid #666666;	
+}
+
+.login_tab #txt
+{
+color:#006699; 
+font-size:13px; 
+font-weight: bold; 
+font-family: 'verdana', arial, sans serif;
+}
+
+.login_tab #error
+{
+color:#FD0000; 
+font-size:13px; 
+font-weight: bold; 
+font-family: 'verdana', arial, sans serif;
+}
+
+.login_tab a
+{
+	color:#000;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:right;
+}
+
+.login_tab a:hover
+{
+	color:#999;
+}
+
+.login_tab td
+{
+	height:25px;
+}
+
+/********************************************/
+
+.profile_tab
+{
+	margin-top:5px;
+	width:450px;	
+}
+
+.profile_tab td
+{
+	padding:5px;
+	font-size:13px;
+	height:20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.profile_tab a
+{		
+	color:#000;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;	
+	text-align:right;
+
+}
+
+.profile_tab a:hover
+{
+	color:#FFFFFF;
+}
+
+.profile_tab #head
+{
+	padding:5px;
+	color:#000;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	background-color:#CCCCCC;
+	border: 1px solid #666666;
+}
+
+/******************************************/
+
+#booklist
+{
+	width: 770px;
+	margin-right:0px;
+	background-color: #FFF;
+	border: 1px solid #999;
+}
+
+#booklist a
+{
+	font-size:12px;
+	color:#003366;
+	text-decoration:none;
+	table-layout:fixed; 
+	overflow-x:hidden; 
+	overflow-y:hidden;
+}
+
+#booklist a:hover
+{
+	color:#999;
+}
+
+img
+{ 
+	border: 5px solid #CCC;	
+}
+
+img:hover
+{
+	border: 5px solid #999;
+}
+
+.name
+{
+	font-size:12px;
+	color:#003366;
+	text-decoration:none;
+	table-layout:fixed; 
+	overflow-x:hidden; 
+	overflow-y:hidden;
+}
+
+/*******************************************/
+
+.left_mid_content
+{
+	width: 225px;
+	float:left;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+
+
+		 
+ ul.submenu {
+	 			width:175px;
+                margin: 0 0 0 10px;
+                padding: 0;
+				float:left;
+                list-style: none;
+                font-size: 11px;
+                }
+				
+ul.submenu #headtxt {
+ 			width:175px;
+			padding: 10px 0px 10px 0px;
+		 	font-weight: bold;
+			font-size: 14px;			
+			color:#04587f;
+			text-align:center;
+			background-color:#ccc;
+			display:block;
+		 }
+				
+.submenu li.title {
+                padding: 2px 0px 8px 10px;
+				font-size: 11px;
+				background-color:#eee;
+				border-bottom: 1px solid #ccc;
+				font-weight: bold;
+				text-align:left;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				display:block;
+				clear:both;
+                }
+.submenu li {
+                padding: 8px 15px 5px 5px;
+				margin-top:2px;				
+				font-size: 11px;
+				font-weight: normal;
+				text-align:left;
+				display:block;
+                }
+				
+.submenu a {
+                color: #217ba5;
+                text-decoration: none;
+				border-bottom: 1px solid #ccc;
+                }
+.submenu a:hover, #submenu a:active {
+                color : #ff003c;
+				text-decoration: none;
+                }										 
+				
+.innersubmenu
+{
+	background-color:#eee;
+	list-style:none;
+	border:1px solid #eee;
+}			
+
+/**************************************/
+
+.bottomTab
+{
+	width:775px;
+	padding-top:25px;
+	
+}
+
+.comreview
+{	
+	width:375px;
+	float:left;
+	font-size:12px;
+	color:#000000;
+	/*background-color: #EEE;*/
+}
+
+.comreview #cell
+{
+	width: 375px;
+	padding:5px;
+	background-color:#EEE;
+}
+
+.comreview #cell_lef
+{	
+	padding:20px;
+	width: 200px;
+	background-color:#EEE;
+}
+
+.comreview #cell_rig
+{
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	width: 175px;	
+	background-color:#EEE;
+}
+
+.comreview #cell_lef_top
+{	
+	padding:20px;
+	width: 200px;
+	background-color:#CCC;
+}
+
+.comreview #cell_rig_top
+{
+	padding:20px;
+	width: 175px;
+	float:right;
+	background-color:#CCC;
+}
+
+.comreview #cell p
+{	
+	padding:5px;
+	width:375px;
+	height:50px;
+	overflow:auto;
+}
+
+
+/********** bookdetails ******/
+
+.bookdet
+{
+	width:325px;
+	padding: 0 0 0 10px;
+}
+
+.bookdet #head
+{
+	width:325px;
+	height:30px;
+	background-color:#CCCCCC;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.bookdet td
+{
+	padding-left:15px;
+	width:325px;
+	height:30px;
+	background-color:#EEE;
+	color:#000000;
+	font-size:12px;
+}
+
+.defaultImag
+{
+	width:119px; 
+	height:150px; 	
+	background : url('../images/default_cov1.gif') #fff repeat-x;'
+}
+
+.defaultImag td
+{ 
+	border: 5px solid #CCC;	
+}
+
+.defaultImag td:hover
+{
+	border: 5px solid #999;
+}
+
+.txtbook
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#f5d20d;
+	text-decoration:none;
+	clear:both;
+}
+
+.paging
+{
+	width:20px; 
+	height:20px; 
+	display:inline; 
+	background-color:#003399; 
+	color:#FFF; 
+	font-weight:bold; 
+	font-size:16px;
+}

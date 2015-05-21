@@ -1,0 +1,9 @@
+insert into posts (user_id,post,parent_id) values (36,'what',7);
+
+
+*******************************************************************************************************
+
+SELECT t1.name,t2.post from registration t1, posts t2 where t1.user_id = t2.user_id and t2.parent_id = 7;
+
+
+***************************************************************************

@@ -1,0 +1,224 @@
+<?php
+$COLLEGE_NAME = "Caarmel Engineering College";
+$COLLEGE_ADDRESS = "Koonamkara P.O., Ranni-Perunad, Pathanamthitta Dist., Kerala- 689711";
+$PROJECT_NAME = "Linways LMS";
+$DB_NAME = "caarmel_latest";
+$HOST = "localhost";
+$USER = "root";
+$PASSWD = "root";
+$MAX_USER_PER_PAGE = 15;
+$MAX_PAGE_NUMBER = 5;
+$MAX_BOOK_PER_PAGE = "50";
+$MAX_SEARCH_RESULT_PER_PAGE = 10;
+$MaterialType = array("Book", "Audio cd", "Video cd");
+$PENALTY_PERDAY = 4;
+$ROOT_PATH = "/var/www/projects/caarmel/";
+$LIBADMIN = "libadmin/";
+$LIBCOMMON = "libcommon/";
+$STUDENT_FOLDER_PATH = "../studentdocs/";
+$STUDENT_SWF_PATH = "swffiles/";
+$STUDENT_PDF_PATH = "pdf/";
+$STUDENT_DOC_PATH = "doc/";
+$STUDENT_IMG_PATH = "images/";
+//Staff folder path
+$STAFF_FOLDER = "../staffdocs/";
+$STAFF_SWF_PATH = "swffiles/";
+$STAFF_PDF_PATH = "pdf/";
+$STAFF_DOC_PATH = "doc/";
+$STAFF_IMG_PATH = "images/";
+
+// MANAGEMENT folder path
+$MANAGEMENT_FOLDER = "../mmdocs/";
+$MANAGEMENT_IMG_PATH = "images/";
+
+
+/* ebook Paths   */
+$EBOOK_FOLDER   = "../ebooks/";
+$EBOOK_SWF_PATH = "swffiles/";
+$EBOOK_PDF_PATH = "pdf/";
+$EBOOK_DOC_PATH = "doc/";
+$EBOOK_IMG_PATH = "images/";
+
+$MAX_EBOOK_PER_PAGE = 16;
+
+
+$COMPANY_FOLDER = "companydoc";
+$COMPANY_INTERNSHIP_FOLDER = "companydoc/internship";
+
+$rating_dbhost = $HOST;
+$rating_dbuser = $USER;
+$rating_dbname = $DB_NAME;
+$rating_tableName = 'ratings';
+$rating_path_db       = '';
+$rating_path_rpc      = '';
+$rating_unitwidth     = 30; // the width (in pixels) of each rating unit (star, etc.)
+// if you changed your graphic to be 50 pixels wide, you should change the value above
+
+
+$GroupPrivileges = array( 
+                'Users & Privileges' => 'staff',
+				'Library settings' => 'settings',
+				'Student transaction' => 'stransaction',
+                'Faculty transaction' => 'ftransaction',
+				'Suggestion' => 'suggestion',
+				'Book Bank Settings' => 'BBS_settings',
+				'Book Bank Transaction' => 'BBS_transaction',
+				'Accession Register' => 'accregi',
+				'Student Report' => 'studentrep',
+				'BBS Report' => 'bbsreport',
+				'Faculty Report' => 'facultyrep',
+				'Book Issue Report' => 'bookissu',
+				'Cost summary' => 'bookcost',
+				'Department' => 'dept',
+				'Subject' => 'subject',
+                'Author' => 'author',
+                'Publisher' => 'publisher',
+                'Supplier' => 'supplier',
+				'Language' => 'language',
+				'Attachments' => 'attachment',
+				'Rack Entry' => 'rackentry',
+				'Draw Entry' => 'drawentry',                                
+                'Currency' => 'currency',                                                                
+				'Books' => 'books',
+                'Frequency' => 'frequency',
+				'Type of Journal' => 'typeofjournal',
+				'Periodicals/ journals/ Serials' => 'periodicals',
+				'eBook Category' => 'dcategory',
+				'eBook Subcategory' => 'dsubcategory',
+				'eBooks ' => 'ebook'
+				);
+			
+$adminGroupPrivileges = array(
+				'Manage Department' => 'dept',
+				'Manage Subject' => 'subject',
+				'Manage Admin' => 'adminacc',				
+				'Manage Batches [Batches]' => 'batch',				
+				'Pseudo Batches [Batches]' => 'pseudobatch',
+				'Assign Roles' => 'sbs',
+				'Manage Faculty [Faculty]' => 'staff',
+			    'Faculty Evaluation [Faculty]' => 'staffeval',
+			    'Faculty Attendance [Faculty]' => 'staffatten',
+				'Manage Student [Student]' => 'student',
+				'Student Fees [Student]' => 'studentfees',
+				'Timetable' => 'timetable',
+				'Exams' => 'exam',
+				'Management [More]' => 'management',
+				'Document [More]' => 'document',
+				'Calander [More]' => 'events',	
+				'EOD Settings [More]' => 'eodsetting',				
+				'Hostel' => 'hostel',
+				'Transportation' => 'transportation',
+				'Infrastructure' => 'infra',
+				'ISO Rules for Faculties' => 'isofaculty',
+				'ISO Rules for Students' => 'isostudent'
+				);				
+
+
+$placementGroupPrivileges = array(
+	'Admin Accounts' => 'admin_accounts',	
+	'Departments' => 'dept',
+    'Course Type' => 'coursetype',
+    'Prior Courses' => 'coursetype_prev',
+	'Batches' => 'batch',
+	'Students' => 'student_entry',
+	'Event' => 'define_placement',
+	'Question Bank' => 'questions',
+	'Aptitude Tests' => 'quiz',
+	'Announcement' => 'announcement',
+    'Placement Papers' => 'recruitment',
+    'Technical Interview Questions' => 'tiq',
+    'Company List' => 'companylist',
+    'Settings' => 'settings',
+    'Students Filter' => 'studentsfilter',
+    'Contacts' => 'contacts',
+    'SMS & Email' => 'emailandsms',
+    'Training' => 'training',
+    'Company Registration' => 'company_request_admin',
+    'Placement Summary' => 'placement_summary',
+    'Message' => 'message',
+    'Website' => 'website'
+    );		
+
+$hrGroupPrivileges = array(
+    'Admin Accounts' => 'admin_accounts',
+    'Sections' => 'section',
+    'Designations' => 'designation',
+    'Section & Designations' => 'sectiondesgn',
+    'Employee' => 'staff',
+    'Exit Details' => 'exitdetails',
+    'Leave Management' => 'leave'
+    );
+
+$feecollectionGroupPrivileges = array(
+    'Admin Accounts' => 'admin_accounts',
+    'Course Duration' => 'courseduration',
+    'Admission Quotas' => 'admissionquota',
+    'Fees Frequency' => 'feesfrequency',
+    'Fees Types' => 'feestype',
+    'Quota Fees' => 'quotafees',
+    'Scholarship ' => 'scholarship',
+    'Quota & Scholarship' => 'quotascholarship',
+    'Hostel Feeses' => 'hostelfeeses',
+    'Student And Admission Quota' => 'studentquota',
+    'Student Previous Balance' => 'studentbalance',
+    'Verify & Assign Fees' => 'verifyfees',
+    'Academic Fees' => 'academic_fees',
+    'Hostel Fees' => 'hostel_fees',
+    'Transportation Fees' => 'transportation_fees'
+    );
+    
+$examGroupPrivileges = array(
+    'Admin Account' => 'admin_accounts',
+    'Exam Type' => 'exam_type',
+    'Define Exam' => 'define_exam',
+    'Define Hall' => 'define_hall',
+    'Define Group' => 'define_group',
+    'Copy Hall & Staff' => 'copy_staffhall',
+    'Assign Hall To Group' => 'addhall_group',
+    'Assign Staff To Group' => 'addstaff_group',
+    'Class Arrangement' => 'arrange_class',
+    'Finalize Arrangement' => 'final_arrange',
+    'Assign Staff To Room' => 'assign_staff',
+    'Reports' => 'reports',
+    'Exam Attendance' => 'examattnd',
+    'Mark List' => 'marklist',
+    'Answer Sheet Report' => 'answersheet'
+    );    
+    
+
+$subjectwise_attendance = 1;
+$ATTENDANCE_HOURS =7;
+$excludelastHour = 1; // for marking EoD button to enable
+
+/* SMS server configuraton */
+/*
+$SMS_USERNAME = "caarmel";
+$SMS_PASSWORD = "161df01760952e4f1c7a";
+$SMS_DOMAIN = "http://sms.xpresssms.in/api/api.php?";
+$SMS_METHOD = "POST";
+$SMS_SENDERID = "CARMEL";
+$SMS_PROMO = 1;
+$SMS_TRANS = 2;
+*/
+
+/* Mail server configuration */
+/*
+$SMTPHost = "smtp.gmail.com";
+$SMTPPort = 465;
+
+$college_mailID = "mail@bccaarmel.ac.in";
+$college_mailpassword =  "cmail700#";
+$college_MailFromID =  "mail@bccaarmel.ac.in";
+
+$mailID = "linwaysfb";
+$mailpassword =  "linways@2014";
+$MailFromID =  "linwaysfb@gmail.com";
+
+$MailFromFaculty = "Caarmel Faculty Feedback ";
+$MailFromStudent = "Caarmel Student Feedback ";
+
+//$MailSubject = "";
+//$MailBody = "";
+$mailReplyTo = "francis@linways.com";
+*/
+?>

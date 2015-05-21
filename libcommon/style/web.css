@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+div.contents
+{
+	width:790px;
+	height:500px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	display:block;
+}
+
+div.login_tab_l1
+{
+	width:375px;
+	height:150px;
+	position:relative;
+	padding-top:20px;
+	background:url(../images/tab_admin.png) no-repeat bottom;
+}
+
+div.login_tab_l2
+{
+	width:375px;
+	height:150px;
+	position:relative;
+	padding-top:20px;
+	background:url(../images/tab_staff.png) no-repeat bottom;
+}
+
+div.login_tab_l3
+{
+	width:375px;
+	height:150px;
+	position:relative;
+	padding-top:20px;
+	background:url(../images/tab_student.png) no-repeat bottom;
+}
+
+div.lnk_button
+{
+	margin-top:10px; 	
+	text-align:center;
+}
+
+div.lnk_button a
+{
+	width:105px;
+	height:42px;
+	margin: 0px 0px 0px 120px;
+	background-image:url(../images/login1.png);
+	display:block;
+	
+}
+
+div.lnk_button a:hover
+{
+	width:105px;
+	height:42px;
+	margin: 0px 0px 0px 120px;
+	background-image:url(../images/login2.png);
+	display:block;	
+}

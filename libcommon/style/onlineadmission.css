@@ -1,0 +1,34 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video 
+{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body {
+color: #3C3C3C;
+font: normal normal normal 11px/160% 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
+}
+
+#wrapper 
+{
+margin: 0 auto;
+display: block;
+}
+
+#wrapper > header 
+{
+height: 46px;
+display: block;
+}
+
+#wrapper > header > h1 a 
+{
+color: #111;
+display: block;
+padding-left: 25px;
+padding-right: 25px;
+text-shadow: 0 1px 1px white;
+line-height: 46px;
+}
+

@@ -1,0 +1,1092 @@
+/* CSS Document */
+
+@media print {
+    body { font-size: 10pt }
+	
+	.timetableList
+	{
+		width:auto;
+		height:auto;
+		background-color: #fff;
+		border: 1px solid #666;
+	}
+	
+	.timetableList td
+	{
+		width:auto;
+		height:auto;
+		color:#000;
+		background-color:#e4e4e4;
+	}
+	
+	.timetableList td p
+	{
+		margin:0 5px;
+		color:#000;
+		overflow:hidden;	
+		text-align:left;
+		float:left;
+		background-color:#e4e4e4;
+	}
+
+  }
+
+ 
+html, body {
+	margin: 0 0 0 0;
+	background : url('../images/admin_images/bg2.jpg') #fff repeat-x;
+	font-family : 'verdana' , arial, tahoma, sans-serif;
+	font-size : 12px;
+}
+
+
+h1 
+{
+color:#217ba5; 
+text-transform:capitalize;
+font-size:20pt; 
+font-family: verdana, arial, 'sans serif';
+}
+
+h2 
+{
+color:#3399CC; 
+font-size:14pt; 
+font-family: verdana, arial, 'sans serif';
+}
+
+h3 
+{
+color:#006699; 
+font-size:13px; 
+font-weight: bold; 
+font-family: verdana, arial, 'sans serif';
+}
+
+hr {color:navy}
+
+
+p
+{
+	margin:5px 5px 5px 25px;
+	color:#000; 
+	font-size:11px; 
+	font-weight:normal;
+	font-family: verdana, arial, 'sans serif';
+}
+
+.mainTable
+{
+	width: 100%;
+}
+
+.pageTab
+{
+	width: 995px;
+}
+
+.topNav
+{
+	width:100%;
+	height:20px;
+	text-align:right;
+	background-color:#000000;
+}
+
+.topNav a
+{	padding-left:20px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.topNav a:hover
+{
+	color:#CCCCCC;
+}
+
+.pageTab #heading
+{
+	height: 101px;
+}
+
+.pageTab #heading #caption 
+{
+	margin: 20px 0px 0px 10px;
+	font-family: 'Verdana' , Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:20px;
+	float:left;
+}
+
+.pageTab #heading #caption #subcap
+{
+	color:#FFFFFF;
+	font-size:12px;
+	float:left;
+}
+
+.pageTab #foottxt
+{
+	color:#FFFFFF;
+	font-size:12px;
+	text-align:center;
+}
+
+.foot
+{
+	height:30px;
+	background: #464646;
+}
+
+/************ login table *********/
+
+.login_tab
+{
+	width: 300px;
+    font-size:12px;	
+	border: 3px solid #0b89b2;
+}
+
+.login_tab #head
+{
+	width:100%;
+	height:25px;
+	color:#FFFFFF;
+	background-color:#464646;
+}
+
+.login_tab #error
+{	
+	width:100%;
+	height:30px;
+	color:#FF0000;
+}
+
+.login_tab th
+{
+	padding-left:15px;
+	height:20px;
+	background-color:#EEE;	
+}
+
+.login_tab #left
+{
+	padding-left:15px;
+	width:100px;
+	height:20px;
+	background-color:#EEE;	
+}
+
+.login_tab #right
+{
+	padding-left:5px;
+	width:200px;
+	height:20px;
+	background-color:#EEE;	
+}
+
+/********* tables ******************/
+
+.welcometxt
+{
+	padding-top:150px;
+	width:450px;
+	color:#217ba5; 
+	text-transform:capitalize;
+	font-size:20pt; 
+	font-family: verdana, arial, 'sans serif';	
+}
+
+.formInput
+{
+	width:750px;	
+}
+
+.formInput th
+{		
+	width:100%;
+	height:25px;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	background-color:#464646;
+}
+
+.formInput td
+{		
+	padding: 0px 0px 0px 20px;
+	height:25px;
+	color:#000;
+	vertical-align:middle;
+	text-transform:capitalize;
+	background-color:#EEE;
+	/*text-align: left;*/
+}
+
+div.extra_head
+{
+	width:745px;
+	height:35px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+}
+
+div.staff_head
+{
+	width:745px;
+	height:60px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+}
+
+
+div.staff_hd
+{
+    width:749px;
+    height:60px;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+    position:relative;
+    color:#FFF;
+    font-weight:bold;
+    background-color:#464646;
+}
+
+
+div.question_head
+{
+    width:745px;
+    height:400px;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+    position:relative;
+    color:#FFF;
+    font-weight:bold;
+    background-color:#464646;
+}
+
+
+div.create_test_head
+{
+    width:745px;
+    height:400px;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+    position:relative;
+    color:#FFF;
+    font-weight:bold;
+    background-color:#464646;
+}
+
+div.display_test_head
+{
+    width:745px;
+    height:30px;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    vertical-align:middle;
+    position:relative;
+    color:#FFF;
+    font-weight:bold;
+    background-color:#464646;
+    
+}
+
+
+
+/*******************************************/
+div.extra_foot_dd
+{
+	width:745px;
+	height:35px;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+	border: 1px solid #666;
+}
+
+div.extra_foot_dd a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+div.extra_foot_dd a:hover
+{
+	text-decoration:none;
+	color:#0b89b2;
+}
+
+div.extra_foot_dd p
+{
+	padding-top:2px;
+	font-weight:bold;
+}
+
+/*********************************************************/
+
+span.element
+{
+	margin-left:25px;	
+}
+
+div.extra_foot
+{
+	width:745px;
+	height:35px;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+	border: 1px solid #666;
+}
+
+div.extra_foot p
+{
+	padding-top:2px;
+	font-weight:bold;
+	/*color:#FFF;
+	background-color:#464646;*/
+}
+
+div.extra_foot a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+div.extra_foot a:hover
+{
+	text-decoration:none;
+	color:#0b89b2;
+}
+
+div.staff_head
+{
+	width:745px;
+	height:60px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+}
+
+.fromList
+{
+	width:750px;
+	table-layout:fixed;
+	overflow:hidden;
+}
+
+.fromList td
+{
+	height:25px;
+	color:#000;
+	overflow:hidden;	
+	background-color:#EEE;
+}
+
+.fromList th
+{
+	height:25px;
+	color:#FFFFFF;
+	overflow:hidden;
+	text-transform:capitalize;
+	background-color:#464646;
+}
+
+.fromList th a
+{
+	font-size:12px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.fromList th a:hover
+{
+	color:#CCCCCC;
+}
+
+.fromList th.foot a
+{
+	padding: 3px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #666;	
+	vertical-align: middle;
+}
+
+.fromList th.foot #selpage
+{
+	vertical-align: middle;
+	padding: 3px;
+	margin: 0px;
+	border-radius: 3px;
+	color: #333;
+	background-color: #fff;	
+}
+
+.fromListdiv
+{
+	width:750px;
+	height:25px;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	background-color:#464646;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.caption
+{
+	width:50%;
+	height:30px;
+	margin: 25px 0px 0px 250px;
+	padding: 10px 0px 0px 0px;
+	text-align:center;
+	text-transform:capitalize;
+	float:none;
+	font-family:Verdana, Geneva, 'sans-serif';
+	font-size:14px;
+	font-weight:bold;
+	color:#464646;
+	background:url(../images/admin_images/admin_head.png) no-repeat center center #fff;
+	/*
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	*/
+	display:block;
+}
+
+/****************************************************************/
+
+div.del_msg
+{
+	width:350px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#EEE;
+	border: 3px solid #464646;
+}
+
+span.del_msg_head
+{
+	width:350px;
+	height:35px;
+	padding-top:5px;
+	margin-bottom:25px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#464646;
+	display:block;	
+	
+}
+
+.del_msg_foot
+{
+	width:350px;
+	height:25px;
+	padding-top:5px;
+	margin-top:25px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#464646;
+	display:block;	
+}
+
+/************************** Exam panel *********************/
+
+.examInput
+{
+	width:749px;	
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;	
+	text-align:center;
+	float:left;
+}
+
+.examInput th
+{		
+	width:100%;
+	height:33px;
+	vertical-align:middle;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	background-color:#464646;
+}
+
+.examInput th.foot
+{		
+	width:100%;
+	height:35px;
+	vertical-align:middle;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	background-color:#464646;
+}
+
+.examInput td
+{		
+	padding: 0px 0px 0px 20px;
+	width:50%;
+	height:25px;
+	color:#000;
+	text-align:left;
+	vertical-align:middle;
+	text-transform:capitalize;
+	background-color:#EEE;
+}
+
+.exam_indent
+{
+	width:760px; 
+	padding-top:10px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:center; 
+	vertical-align:middle; 
+}
+
+/***************** Timetable panel *************/
+
+div.tt_head
+{
+	width:990px;
+	height:60px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+}
+
+.timetableList
+{
+	width:990px;
+	height:500px
+	/*table-layout:fixed;*/
+	overflow:auto;	
+	background-color: #fff;
+	border: 1px solid #666;
+}
+
+.timetableList td
+{
+	width:100px;
+	height:auto;
+	text-align:left;
+	color:#000;
+	font-size:12px;
+	background-color:#e4e4e4;
+}
+
+.timetableList div.span_tab
+{
+	width:100px;
+	height:auto;
+	/*table-layout:fixed; 
+	overflow-x:scroll; 
+	overflow-y:hidden;*/	
+}
+
+
+.timetableList td p
+{
+	
+	color:#000;	
+	float:left;
+	background-color:#e4e4e4;
+	display:block;
+}
+
+.timetableList td.days
+{
+	
+	height:45px;
+	color:#000;
+	overflow:hidden;	
+	background-color:#ccc;
+}
+
+.timetableList th
+{
+	height:45px;
+	font-size:10px;
+	color:#FFFFFF;
+	overflow:hidden;
+	text-transform:capitalize;
+	background-color:#464646;
+}
+
+.timetableList th a
+{
+	font-size:12px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.timetableList th a:hover
+{
+	color:#CCCCCC;
+}
+
+div.timetableList_foot
+{
+	width:100%;
+	height:35px;
+	padding:10px 0 5px 0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	background-color:#464646;
+	/*font-weight:bold;	
+	border: 1px solid #666;*/
+}
+
+p.tt_result
+{
+	margin-top:50px;
+	margin-bottom:25px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:16px;
+	color:#0a88b1;
+	
+}
+
+div.tt_headfor_print
+{
+	width:100%;
+	height:30px;
+	padding-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+}
+
+/***************************************************************/
+.fromList_long
+{
+	width:950px;
+	table-layout:fixed;
+	overflow:hidden;
+}
+
+.fromList_long td
+{
+	height:25px;
+	color:#000;
+	overflow:hidden;	
+	background-color:#EEE;
+}
+
+.fromList_long th
+{
+	height:25px;
+	color:#FFFFFF;
+	overflow:hidden;
+	text-transform:capitalize;
+	background-color:#464646;
+}
+
+.fromList_long th a
+{
+	font-size:12px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.fromList_long th a:hover
+{
+	color:#CCCCCC;
+}
+
+/************* style sheet *************/
+div#qTip {
+ padding: 5px;
+ width:250px;
+ border: 1px solid #fff;
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ display: none;
+ background: #464646;
+ color: #FFF;
+ font: 12px Verdana, Arial, sans-serif;
+ text-align: left;
+ position: absolute;
+ z-index: 1000;
+}
+
+.tooltip
+{
+	text-decoration:none;
+	color:#000;
+}
+
+/************************************************/
+/************************************************/
+.boardexam
+{
+        min-width:990px;
+		  max-width:1500px;
+        height:auto;
+        /*table-layout:fixed;*/
+        overflow:scroll;
+        background-color: #fff;
+        border: 1px solid #666;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.boardexam td
+{
+        width:45px;
+        height:auto;
+		  table-layout:fixed;
+		  padding:0px;
+        text-align:center;
+        color:#000;
+        font-size:12px;
+		  overflow:hidden;
+        background-color:#e4e4e4;
+}
+
+.boardexam th
+{
+        height:45px;
+        font-size:10px;
+        color:#FFFFFF;
+        overflow:hidden;
+        text-transform:capitalize;
+        background-color:#464646;
+}
+
+.boardexam th a
+{
+        font-size:12px;
+        text-decoration:none;
+        color:#FFFFFF;
+}
+
+.boardexam th a:hover
+{
+        color:#CCCCCC;
+}
+
+
+.boardexam div.span_tab
+{
+        width:100px;
+        height:auto;
+        /*table-layout:fixed; 
+        overflow-x:scroll; 
+        overflow-y:hidden;*/
+}
+
+.exams_both
+{
+	margin:0 auto;
+	text-align:center;
+	padding:2px;
+	color:#ccc;
+	/*border:1px solid #666;	*/
+}
+
+.exams_both #exam1
+{
+	margin:3px 3px 3px 0;
+	padding:3px;
+	border:1px solid #999;
+}
+
+.exams_both #exam2
+{
+        margin:3px 0 3px 0;
+        padding:3px;
+        border:1px solid #999;
+}
+
+.exams_both input
+{
+	margin:2px;
+	width:30px;
+}
+
+.exams_title
+{
+	padding:3px;
+	color:#fff;
+}
+
+.exams_both #entry
+{
+	width:40px;
+        padding:3px 0;
+        margin:0 3px;
+        color:#000;
+        border:1px solid #666;
+	display:inline-block;
+}
+
+div.prevmarks
+{
+	width:745px;
+	padding:10px 0;
+	margin:5px auto;
+	text-align:center;
+	position:relative;
+	color:#FFF;
+	font-weight:bold;
+	background-color:#464646;
+	display: block;	
+}
+
+
+/*********************************************************/
+
+
+.evaltab
+{
+	width:750px;
+	table-layout:fixed;
+	overflow:hidden;
+}
+
+.evaltab td
+{
+	height:25px;
+	color:#000;
+	overflow:hidden;	
+	background-color:#EEE;
+}
+
+#cellitem
+{
+	 height:15px; 
+	 padding:8px 10px; 
+	 text-align:center; 
+	 border-bottom:1px solid #fff; 
+	 display:block;
+	 text-align: left;
+}
+
+#cellitemcenter
+{
+	 height:15px; 
+	 padding:8px 10px; 
+	 text-align:center; 
+	 border-bottom:1px solid #fff; 
+	 display:block;
+	 text-align: center;
+}
+
+.evaltab th
+{
+	height:25px;
+	color:#FFFFFF;
+	overflow:hidden;
+	text-transform:capitalize;
+	background-color:#707070;
+	font-weight: normal;
+}
+
+#evalfoot
+{
+	height:25px;
+	color:#000;
+	overflow:hidden;
+	text-transform:capitalize;
+	background-color:#D6D6D6;
+}
+
+.evaltab th a
+{
+	font-size:12px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.evaltab th a:hover
+{
+	color:#CCCCCC;
+}
+
+#headcaption
+{
+	width:100%;
+	padding: 5px 25px;
+	border-bottom:1px solid #fff;	
+	text-align: left;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#colcaption
+{
+	width: 100%;
+	padding: 5px;
+	border-bottom:1px solid #fff;	
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#centercolcaption
+{
+	width: 100%;
+	padding: 5px;
+	border-bottom:1px solid #fff;	
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#setquestion
+{
+	width:100%; 	
+	max-height: 4.5em;
+	height:150px; 
+	overflow-y:scroll; 
+	line-height:20px; 
+	text-align:left;
+	vertical-align: center;
+}
+
+.staffeval_area
+{
+	width:990px;
+	height:auto;
+	padding:0;
+	text-align:left;
+	border: 2px solid #7daefa;
+	overflow-x:scroll;
+	overflow-y:none;
+}
+
+/********************************************************/
+
+.toplink
+{
+	margin: 0 20px;	
+}
+
+.toplink #module
+{
+	color: #fff;
+	background-color: #999;
+	padding:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+.toplink #arrow
+{
+	padding 0 15px;
+	color: #666;
+}
+
+.toplink a
+{
+	color: #217ba5;
+	text-decoration: none;	
+}
+
+.toplink a:hover
+{
+	text-decoration: underline;
+}
+
+#nolink
+{
+	color:#666;
+}
+
+/* ************************************************* */
+
+.popuptab
+{
+	 width:320px; 
+	 height:260px; 
+	 float:left; 
+	 margin:0;	
+}
+
+table.popuptab td:nth-child(odd)		
+{ 
+	width: 45%;
+	text-align: left;
+	padding-left: 10px; 
+	/*background-color:#F0F5FA;*/ 
+	font-size: 12px;
+}
+
+table.popuptab td:nth-child(even)		
+{ 
+	padding-left: 10px;
+	/*background-color:#F0F5FA;*/ 
+}
